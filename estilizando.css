@@ -1,0 +1,107 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+
+/* CABEÇALHO */
+
+
+header {
+background-color: #ed0030;
+
+}
+
+
+.barra-de-pesquisa {
+position: relative;
+bottom: 92px;
+left: 280px;
+
+
+}
+.barra-de-pesquisa input{
+font-family: "Roboto", sans-serif;
+
+
+}
+
+#american {
+width: 450px;
+padding: 10px;
+border-radius: 6px;
+border: none;
+outline: none;
+box-shadow: 2px 2px 10px 6px #570a19f3;
+}
+
+.lupa {
+display: none;
+}
+
+.menu-interativo {
+display: flex;
+gap: 20px;
+justify-content: space-around;
+background-color: rgb(36, 36, 36);
+
+}
+
+.menu-interativo a {
+color: white;
+text-decoration: none;
+padding: 5px;
+font-family: "Roboto", sans-serif;
+font-size: 15px;
+}
+
+.cadastro {
+position: absolute;
+top: 50px;
+right: 50px;
+z-index: 999999999;
+}
+
+
+.cadastro a{
+text-decoration: none;
+color: white;
+font-family: "Roboto", sans-serif;
+font-weight: bolder;
+}
+
+.icons {
+display: flex;
+position: absolute;
+top: 130px  ;
+right: 35px;
+gap: 30px   ;
+}
+
+.menu-interativo .mn3 {
+display: none;
+}
+
+/* hovers do cabeçalho */
+
+.icons a:hover {
+background-color: rgb(0, 0, 0);
+border-radius: 4px;
+cursor: pointer;
+transition: 0.2s;
+}
+
+.menu-interativo a:hover {
+color: #97122d;
+transition: 0.3s;
+}
+
+/* conteudo principal */
+
+.conteudo-principal {
+ font-family: "Poppins", sans-serif;
+ color: gray;
+ text-align: center;
+ margin: 80px auto;
+}

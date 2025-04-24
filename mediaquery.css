@@ -1,0 +1,130 @@
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* header */
+    .barra-de-pesquisa #american {
+        position: fixed;
+        right: 290px;
+        top: 90px;
+
+    }
+
+    .icons {
+        top: 105px;
+        right: 25px;
+        gap: 25px;
+    }
+
+    .icons img {
+        width: 28px;
+    }
+
+
+    header .logoamericanas img {
+        bottom: 25px;
+        position: relative;
+
+    }
+
+
+    .cadastro {
+        right: 20px;
+        top: 0px;
+        font-size: 13px;
+    }
+
+    .cadastro img {
+        width: 35px;
+    }
+
+    .cadastro .lgg {
+        position: relative;
+        bottom: 8px;
+    }
+
+    .conteudo-site img {
+        width: 500px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .logoamericanas .lupa {
+        display: none;
+    }
+
+    .barra-de-pesquisa input {
+        display: none;
+    }
+
+    .conteudo-site img {
+        width: 450px;
+    }
+
+    .icons img {
+        width: 24px;
+        position: relative;
+        top: 45px;
+        left: 300px;
+    }
+    .cadastro {
+    top: 0px;
+    right: 40px;
+    font-size: 12px;
+
+    }
+
+    .cadastro img {
+    width: 24px;
+
+    }
+
+    .cadastro .lgg {
+    top: -3px;
+    position: relative;
+    }
+
+    /* .menu-interativo {
+        background-color: rgb(0, 0, 0);
+        
+    } */
+   .menu-interativo .mn1 {
+display: none;
+}
+
+.menu-interativo .mn3 {
+display: block;
+} 
+
+/* Estilo para o botão "Menu" no mobile */
+.menu-interativo .mn3 {
+    display: block;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Oculta os links inicialmente em telas pequenas */
+  .menu-interativo.open .mn1 {
+    display: block;
+    background-color: #000000;
+    padding: 10px;
+    border-top: 1px solid #292929;
+    text-align: center;
+  }
+
+  /* Garante que o menu fique em coluna no mobile */
+    .menu-interativo {
+      flex-direction: column;
+      align-items: stretch;
+      background-color: #0e0d0d;
+    }
+  }
+  
+
+  
+ 
+  
