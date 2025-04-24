@@ -8,7 +8,10 @@
 
     }
 
+  
+
     .icons {
+        display: none;
         top: 105px;
         right: 25px;
         gap: 25px;
@@ -16,6 +19,7 @@
 
     .icons img {
         width: 28px;
+        
     }
 
 
@@ -58,11 +62,12 @@
         display: none;
     }
 
-    .conteudo-site img {
-        width: 450px;
+    .conteudo-site {
+    display: none;
     }
 
     .icons img {
+        display: none;
         width: 24px;
         position: relative;
         top: 45px;
@@ -76,11 +81,11 @@
     }
 
     .cadastro img {
-    width: 24px;
+    width: 22px;
 
     }
 
-    .cadastro .lgg {
+    /* .cadastro .lgg {
     top: -3px;
     position: relative;
     }
@@ -122,9 +127,5 @@ display: block;
       align-items: stretch;
       background-color: #0e0d0d;
     }
-  }
-  
-
-  
+  } 
  
-  
